@@ -11,7 +11,7 @@ The challenge was to build an AI-powered solution that:
 * Combines search with statistical aggregation.
 * Produces understandable, role-specific answers for engineers, team leads, and managers.
 
-## The Data
+# The Data
 
 LogIQ analyzes real-world system logs from the LogHub collection.
 |Dataset|Description|Records loaded|
@@ -20,7 +20,7 @@ LogIQ analyzes real-world system logs from the LogHub collection.
 |OpenStack|Cloud infrastructure logs containing service activity, errors, and tracebacks|207,820|
 |Total|Searchable records stored in SereneDB|4,955,783
 
-These are previously recorded logs, not live production telemetry.
+> These are previously recorded logs, not live production telemetry.
 
 **Ask questions about system logs. Get verifiable answers tailored to the person taking action.**
 
@@ -30,9 +30,9 @@ These are previously recorded logs, not live production telemetry.
 
 **[Run LogIQ](#quick-start)** · **[See the investigation](#worked-investigation)** · **[Explore all 19 tools](FUNCTIONS.md)** · **[Full reproduction guide](README_full_reference.md)**
 
-## LogIQ in Action
+# LogIQ in Action
 
-### One AI Agent, Three Perspectives
+## One AI Agent, Three Perspectives
 
 LogIQ adapts its responses to the user's selected role, transforming the same log evidence into insights relevant to different responsibilities.
 
@@ -44,7 +44,7 @@ LogIQ adapts its responses to the user's selected role, transforming the same lo
 
 ![LogIQ Role Selection](docs/assets/role-selection.png)
 
-### Evidence-Grounded AI Analysis
+## Evidence-Grounded AI Analysis
 
 LogIQ translates natural-language questions into tool calls, executes queries against SereneDB, and generates role-specific answers grounded in retrieved evidence.
 
@@ -52,7 +52,7 @@ The interface presents both the **AI-generated answer** and the **supporting evi
 
 ![LogIQ Agent Answer and Evidence](docs/assets/agent-answer-evidence.png)
 
-## How it works
+# How it works
 
 ![LogIQ evidence flow](docs/assets/logiq-architecture.png)
 
@@ -134,7 +134,7 @@ Expected: the assertion passes and prints both totals. For manual setup, run the
 
 **Attribution:** Zhu et al., *Loghub: A Large Collection of System Log Datasets for AI-driven Log Analytics*, ISSRE 2023. BGL: Oliner & Stearley, *What Supercomputers Say: A Study of Five System Logs*, DSN 2007.
 
-## Worked investigation
+# Worked investigation
 
 **OpenStack disk inspection failure · May 16–17, 2017**
 
