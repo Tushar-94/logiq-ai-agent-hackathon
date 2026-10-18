@@ -1,4 +1,26 @@
-# LogIQ
+# The Challenge
+
+**National AI Hackathon 2026 — Making Sense of Logs: The Right Insights for the Right People**
+
+Modern systems generate millions of log records. Finding meaningful problems requires searching large volumes of data, identifying patterns, and translating technical evidence into useful decisions.
+
+The challenge was to build an AI-powered solution that:
+
+* Converts natural-language questions into appropriate tool calls and database queries.
+* Retrieves real evidence from system logs.
+* Combines search with statistical aggregation.
+* Produces understandable, role-specific answers for engineers, team leads, and managers.
+
+## The Data
+
+LogIQ analyzes real-world system logs from the LogHub collection.
+|Dataset|Description|Records loaded|
+|-------|-----------|--------------|
+|BGL|Supercomputer system logs containing hardware and operational events|4,747,963|
+|OpenStack|Cloud infrastructure logs containing service activity, errors, and tracebacks|207,820|
+|Total|Searchable records stored in SereneDB|4,955,783
+
+These are previously recorded logs, not live production telemetry.
 
 **Ask questions about system logs. Get verifiable answers tailored to the person taking action.**
 
@@ -7,6 +29,28 @@
 **Engineer** · Diagnose failures &nbsp; | &nbsp; **Team Lead** · Coordinate investigation &nbsp; | &nbsp; **Manager** · Prioritize risk
 
 **[Run LogIQ](#quick-start)** · **[See the investigation](#worked-investigation)** · **[Explore all 19 tools](FUNCTIONS.md)** · **[Full reproduction guide](README_full_reference.md)**
+
+## LogIQ in Action
+
+### One AI Agent, Three Perspectives
+
+LogIQ adapts its responses to the user's selected role, transforming the same log evidence into insights relevant to different responsibilities.
+
+- **Engineer:** Technical diagnosis, error patterns, and troubleshooting steps.
+
+- **Team Lead:** System health, recurring issues, and investigation priorities.
+
+- **Manager:** Operational risks, business impact, and recommended actions.
+
+![LogIQ Role Selection](docs/assets/role-selection.png)
+
+### Evidence-Grounded AI Analysis
+
+LogIQ translates natural-language questions into tool calls, executes queries against SereneDB, and generates role-specific answers grounded in retrieved evidence.
+
+The interface presents both the **AI-generated answer** and the **supporting evidence**, allowing users to inspect the results behind each recommendation.
+
+![LogIQ Agent Answer and Evidence](docs/assets/agent-answer-evidence.png)
 
 ## How it works
 
