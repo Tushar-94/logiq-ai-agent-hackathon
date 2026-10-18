@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17" type="device" compressed="false">
+  <diagram id="04_teamlead_investigation" name="TEAM LEAD  /  Coordinate the investigation">
+    <mxGraphModel dx="1600" dy="1510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1510" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1600" height="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="LOGIQ  /  EVIDENCE-DRIVEN CLOUD INVESTIGATION" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#64748B;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="30" width="1504" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="TEAM LEAD  /  Coordinate the investigation" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=36;fontColor=#0F172A;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="70" width="1504" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="OpenStack · May 16–17, 2017 · timestamps as recorded · May 17 coverage is incomplete" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=20;fontColor=#475569;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="48" y="128" width="1504" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#93C5FD;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="48" y="200" width="1504" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="QUESTION" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#1D4ED8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="214" width="1460" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="How often does the pattern recur, and who should take responsibility?" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=23;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="258" width="1460" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#C4B5FD;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="48" y="345" width="1504" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="ACTUAL TOOLS · team_lead/Q1–Q5" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#6D28D9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="359" width="1460" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="Q1 corpus_overview({}) — all loaded history&lt;br&gt;Q2 count_problems — group_by: &amp;quot;component&amp;quot;, limit: 10&lt;br&gt;Q3 count_problems — group_by: &amp;quot;team&amp;quot;, component: &amp;quot;oslo_service.periodic_task&amp;quot;, limit: 10&lt;br&gt;Q4 count_problems — group_by: &amp;quot;template&amp;quot;, component: &amp;quot;oslo_service.periodic_task&amp;quot;, limit: 24&lt;br&gt;Q5 problem_trend — component: &amp;quot;oslo_service.periodic_task&amp;quot;, bucket: &amp;quot;day&amp;quot;, severity: 2" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="403" width="1460" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;jettySize=auto;fontFamily=Helvetica;fontSize=17;fontColor=#64748B;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="n5" target="n8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="Shared actual arguments for Q2–Q5: dataset: &amp;quot;openstack&amp;quot;&lt;br&gt;start: &amp;quot;2017-05-16 00:00:00&amp;quot; · end: &amp;quot;2017-05-18 00:00:00&amp;quot;" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=19;fontColor=#6D28D9;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="618" width="1460" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#C4B5FD;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="48" y="716" width="1504" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="SQL AGGREGATION · exact excerpt from Q5" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#6D28D9;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="730" width="1460" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="SELECT dataset, date_trunc(%s, ts) AS period, team AS team, count(*) AS lines FROM events_v" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=20;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="774" width="1460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;jettySize=auto;fontFamily=Helvetica;fontSize=17;fontColor=#64748B;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="n8" target="n13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E2E8F0;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="48" y="870" width="870" height="294" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="ERROR COUNTS · matching log lines, not incidents" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#0F766E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="72" y="888" width="820" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" value="May 16" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=22;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="946" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F0FDFA;strokeColor=#5EEAD4;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="270" y="945" width="576" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="144" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=22;fontColor=#0F766E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="858" y="946" width="44" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="May 17&lt;br&gt;PARTIAL DAY" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=20;fontColor=#C2410C;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="1020" width="190" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#FDBA74;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1023" width="192" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="48" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=22;fontColor=#C2410C;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="478" y="1025" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="May 17 coverage ends at 12:02:35.&lt;br&gt;These counts do not establish a sustained downward trend." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=18;fontColor=#475569;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="1102" width="820" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F0FDFA;strokeColor=#5EEAD4;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="958" y="870" width="594" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="PATTERN" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#0F766E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="884" width="550" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="192 component ERROR lines&lt;br&gt;24 templates × 8 lines each" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=26;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="928" width="550" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#FDBA74;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="958" y="1048" width="594" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="OWNERSHIP MAPPING" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#C2410C;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1062" width="550" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="unassigned" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=30;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1106" width="550" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="e32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;jettySize=auto;fontFamily=Helvetica;fontSize=17;fontColor=#64748B;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="n13" target="n26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;jettySize=auto;fontFamily=Helvetica;fontSize=17;fontColor=#64748B;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="n26" target="n29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F0FDF4;strokeColor=#86EFAC;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="48" y="1208" width="1504" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" value="RECOMMENDED ACTION" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#15803D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1222" width="1460" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" value="Name an accountable investigation owner and correct the mapping.&lt;br&gt;Coordinate compute, virtual-machine and image-cache expertise; correlate lifecycle records." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=23;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1266" width="1460" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="e37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#15803D;strokeWidth=2;endArrow=block;endFill=1;jettySize=auto;fontFamily=Helvetica;fontSize=17;fontColor=#15803D;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="n29" target="n34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="48" y="1380" width="1504" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" value="UNKNOWN: real owner, host-level spread, independent incidents and remediation benefit" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#475569;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1394" width="1460" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n40" value="Sources: team_lead/Q2–Q5, baseline/B1–B3. Two source files do not prove two hosts." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#64748B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="48" y="1455" width="1504" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,37 @@
+# Private credentials and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!/.env.example
+.local/
+backups/
+**/*.key
+**/*.pem
+**/*credentials*
+**/*secret*
+
+# Regenerate downloaded data; never publish archives or prepared CSVs.
+/data/
+**/*.zip
+**/*.tar.gz
+**/*.csv
+
+# Dependencies, caches, generated reports and temporary files
+.venv/
+venv/
+**/__pycache__/
+**/*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+reproduction/
+tmp/
+temp/
+**/.DS_Store
+**/*.log
+**/*.pid
+**/*.tmp
+**/*.bak
+PUBLICATION_AUDIT.md

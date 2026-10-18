@@ -1,0 +1,7 @@
+psycopg[binary]
+anthropic
+python-dotenv
+fastapi
+uvicorn
+mcp
+openai

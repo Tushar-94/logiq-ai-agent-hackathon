@@ -1,0 +1,56 @@
+# Default-deny build context: COPY . . must never package the local workspace.
+# Runtime credentials are supplied by Compose's env_file, not copied into images.
+**
+
+# Application and ingestion entry points.
+!requirements.txt
+!app.py
+!agent.py
+!tools.py
+!mcp_server.py
+!agent_tools.py
+!prepare_data.py
+!load.py
+
+# Reopen only the exact runtime files needed inside these directories.
+!sql/
+sql/**
+!sql/schema.sql
+!static/
+static/**
+!static/index.html
+
+# Keep the documented offline test command and recorded-question replay usable.
+!tests/
+tests/**
+!tests/test_new_tools.py
+!tests/test_severity_filters.py
+!docs/
+docs/**
+!docs/worked_investigations/
+docs/worked_investigations/**
+!docs/worked_investigations/openstack_invaliddiskinfo_20261018T184344_296010Z/
+docs/worked_investigations/openstack_invaliddiskinfo_20261018T184344_296010Z/**
+!docs/worked_investigations/openstack_invaliddiskinfo_20261018T184344_296010Z/evidence.jsonl
+
+# Defense in depth: these stay excluded even if an allowlist entry expands later.
+**/.env
+**/.env.*
+**/.local/**
+**/backups/**
+**/.venv/**
+**/__pycache__/**
+**/.git/**
+**/data/**
+**/reproduction/**
+**/tmp/**
+**/temp/**
+**/*.pyc
+**/*.log
+**/*.pid
+**/*.tmp
+**/*.bak
+**/*.key
+**/*.pem
+**/*credentials*
+**/*secret*

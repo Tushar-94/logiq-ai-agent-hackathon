@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mxfile host="app.diagrams.net" version="24.7.17" type="device" compressed="false">
+
+  <diagram id="02_logiq_architecture" name="LogIQ Architecture">
+
+    <mxGraphModel
+
+      dx="1920"
+
+      dy="820"
+
+      grid="1"
+
+      gridSize="10"
+
+      guides="1"
+
+      tooltips="1"
+
+      connect="1"
+
+      arrows="1"
+
+      fold="1"
+
+      page="1"
+
+      pageScale="1"
+
+      pageWidth="1920"
+
+      pageHeight="820"
+
+      math="0"
+
+      shadow="0"
+
+      background="#FFFFFF">
+
+      <root>
+
+        <mxCell id="0"/>
+
+        <mxCell id="1" parent="0"/>
+
+        <!-- TITLE -->
+
+        <mxCell id="title1"
+
+          value="LOGIQ / EVIDENCE-DRIVEN CLOUD INVESTIGATION"
+
+          style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#64748B;fontStyle=1;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="48" y="30" width="1800" height="30" as="geometry"/>
+
+        </mxCell>
+
+        <mxCell id="title2"
+
+          value="From a question to a verifiable answer"
+
+          style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=36;fontColor=#0F172A;fontStyle=1;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="48" y="70" width="1800" height="55" as="geometry"/>
+
+        </mxCell>
+
+        <mxCell id="subtitle"
+
+          value="LogIQ selects tools, retrieves database evidence, and generates role-specific recommendations."
+
+          style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=20;fontColor=#475569;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="48" y="135" width="1800" height="35" as="geometry"/>
+
+        </mxCell>
+
+        <!-- MAIN WORKFLOW BOXES -->
+
+        <!-- USER QUESTION -->
+
+        <mxCell id="user"
+
+          value="&lt;span style=&quot;color:#475569;font-size:21px;&quot;&gt;&lt;b&gt;USER QUESTION&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;What do I&lt;br&gt;need to know?"
+
+          style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=12;fontFamily=Helvetica;fontSize=20;fontColor=#0F172A;fillColor=#F8FAFC;strokeColor=#CBD5E1;strokeWidth=1.5;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="48" y="245" width="212" height="156" as="geometry"/>
+
+        </mxCell>
+
+        <!-- LOGIQ AGENT -->
+
+        <mxCell id="agent"
+
+          value="&lt;span style=&quot;color:#1D4ED8;font-size:21px;&quot;&gt;&lt;b&gt;LOGIQ AGENT&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Chooses tools&lt;br&gt;for the question"
+
+          style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=12;fontFamily=Helvetica;fontSize=20;fontColor=#0F172A;fillColor=#EFF6FF;strokeColor=#93C5FD;strokeWidth=1.5;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="278" y="245" width="212" height="156" as="geometry"/>
+
+        </mxCell>
+
+        <!-- TOOL SELECTION -->
+
+        <mxCell id="tools"
+
+          value="&lt;span style=&quot;color:#6D28D9;font-size:21px;&quot;&gt;&lt;b&gt;TOOL SELECTION&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Search, count&lt;br&gt;or rank"
+
+          style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=12;fontFamily=Helvetica;fontSize=20;fontColor=#0F172A;fillColor=#F5F3FF;strokeColor=#C4B5FD;strokeWidth=1.5;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="508" y="245" width="212" height="156" as="geometry"/>
+
+        </mxCell>
+
+        <!-- SQL -->
+
+        <mxCell id="sql"
+
+          value="&lt;span style=&quot;color:#6D28D9;font-size:21px;&quot;&gt;&lt;b&gt;EXECUTED SQL&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Database&lt;br&gt;query language"
+
+          style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=12;fontFamily=Helvetica;fontSize=20;fontColor=#0F172A;fillColor=#F5F3FF;strokeColor=#C4B5FD;strokeWidth=1.5;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="738" y="245" width="212" height="156" as="geometry"/>
+
+        </mxCell>
+
+        <!-- SERENEDB -->
+
+        <mxCell id="database"
+
+          value="&lt;span style=&quot;color:#0F766E;font-size:21px;&quot;&gt;&lt;b&gt;SERENEDB&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Database of&lt;br&gt;recorded logs"
+
+          style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=12;fontFamily=Helvetica;fontSize=20;fontColor=#0F172A;fillColor=#F0FDFA;strokeColor=#5EEAD4;strokeWidth=1.5;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="968" y="245" width="212" height="156" as="geometry"/>
+
+        </mxCell>
+
+        <!-- QUERY RESULTS -->
+
+        <mxCell id="results"
+
+          value="&lt;span style=&quot;color:#0F766E;font-size:21px;&quot;&gt;&lt;b&gt;QUERY RESULTS&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Actual records&lt;br&gt;and counts"
+
+          style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=12;fontFamily=Helvetica;fontSize=20;fontColor=#0F172A;fillColor=#F0FDFA;strokeColor=#5EEAD4;strokeWidth=1.5;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="1198" y="245" width="212" height="156" as="geometry"/>
+
+        </mxCell>
+
+        <!-- INTERPRETATION -->
+
+        <mxCell id="interpretation"
+
+          value="&lt;span style=&quot;color:#1D4ED8;font-size:21px;&quot;&gt;&lt;b&gt;INTERPRETATION&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Separate facts&lt;br&gt;from unknowns"
+
+          style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=12;fontFamily=Helvetica;fontSize=20;fontColor=#0F172A;fillColor=#EFF6FF;strokeColor=#93C5FD;strokeWidth=1.5;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="1428" y="245" width="212" height="156" as="geometry"/>
+
+        </mxCell>
+
+        <!-- ROLE ANSWER -->
+
+        <mxCell id="answer"
+
+          value="&lt;span style=&quot;color:#15803D;font-size:21px;&quot;&gt;&lt;b&gt;ROLE ANSWER&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Evidence +&lt;br&gt;next action"
+
+          style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=20;spacingRight=12;fontFamily=Helvetica;fontSize=20;fontColor=#0F172A;fillColor=#F0FDF4;strokeColor=#86EFAC;strokeWidth=1.5;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="1658" y="245" width="212" height="156" as="geometry"/>
+
+        </mxCell>
+
+        <!--
+
+          MAIN WORKFLOW ARROWS
+
+          IMPORTANT:
+
+          These arrows use absolute coordinates.
+
+          They do NOT connect to shape centers.
+
+          Every arrow stays inside the 18px gap.
+
+        -->
+
+        <mxCell id="arrow1"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="260" y="323" as="sourcePoint"/>
+
+            <mxPoint x="278" y="323" as="targetPoint"/>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <mxCell id="arrow2"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="490" y="323" as="sourcePoint"/>
+
+            <mxPoint x="508" y="323" as="targetPoint"/>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <mxCell id="arrow3"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="720" y="323" as="sourcePoint"/>
+
+            <mxPoint x="738" y="323" as="targetPoint"/>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <mxCell id="arrow4"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="950" y="323" as="sourcePoint"/>
+
+            <mxPoint x="968" y="323" as="targetPoint"/>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <mxCell id="arrow5"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="1180" y="323" as="sourcePoint"/>
+
+            <mxPoint x="1198" y="323" as="targetPoint"/>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <mxCell id="arrow6"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="1410" y="323" as="sourcePoint"/>
+
+            <mxPoint x="1428" y="323" as="targetPoint"/>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <mxCell id="arrow7"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="1640" y="323" as="sourcePoint"/>
+
+            <mxPoint x="1658" y="323" as="targetPoint"/>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <!--
+
+          EVIDENCE RETURN FLOW
+
+          The dashed line travels BELOW the workflow.
+
+          It does not pass through any box.
+
+        -->
+
+        <mxCell id="return_arrow"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#0F766E;strokeWidth=2;dashed=1;dashPattern=5 4;endArrow=block;endFill=1;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="1304" y="401" as="sourcePoint"/>
+
+            <mxPoint x="384" y="401" as="targetPoint"/>
+
+            <Array as="points">
+
+              <mxPoint x="1304" y="490"/>
+
+              <mxPoint x="384" y="490"/>
+
+            </Array>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <!-- RETURN FLOW LABEL -->
+
+        <mxCell id="return_label"
+
+          value="EVIDENCE RETURNED TO AGENT"
+
+          style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=17;fontColor=#0F766E;fontStyle=1;fillColor=#FFFFFF;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="680" y="452" width="360" height="28" as="geometry"/>
+
+        </mxCell>
+
+        <!-- ROLE OUTPUT CARDS -->
+
+        <mxCell id="engineer"
+
+          value="&lt;span style=&quot;color:#15803D;font-size:21px;&quot;&gt;&lt;b&gt;ENGINEER&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Diagnose and check"
+
+          style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=21;fontColor=#0F172A;fillColor=#F0FDF4;strokeColor=#86EFAC;strokeWidth=1.5;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="1040" y="560" width="250" height="120" as="geometry"/>
+
+        </mxCell>
+
+        <mxCell id="teamlead"
+
+          value="&lt;span style=&quot;color:#15803D;font-size:21px;&quot;&gt;&lt;b&gt;TEAM LEAD&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Coordinate ownership"
+
+          style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=21;fontColor=#0F172A;fillColor=#F0FDF4;strokeColor=#86EFAC;strokeWidth=1.5;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="1320" y="560" width="250" height="120" as="geometry"/>
+
+        </mxCell>
+
+        <mxCell id="manager"
+
+          value="&lt;span style=&quot;color:#15803D;font-size:21px;&quot;&gt;&lt;b&gt;MANAGER&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Prioritize follow-up"
+
+          style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=20;fontFamily=Helvetica;fontSize=21;fontColor=#0F172A;fillColor=#F0FDF4;strokeColor=#86EFAC;strokeWidth=1.5;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="1600" y="560" width="250" height="120" as="geometry"/>
+
+        </mxCell>
+
+        <!--
+
+          ROLE BRANCHING
+
+          One output trunk branches into three roles.
+
+          All connections are routed below the main row.
+
+        -->
+
+        <!-- Vertical trunk -->
+
+        <mxCell id="role_trunk"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#15803D;strokeWidth=2;endArrow=none;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="1764" y="401" as="sourcePoint"/>
+
+            <mxPoint x="1764" y="510" as="targetPoint"/>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <!-- Horizontal branch -->
+
+        <mxCell id="role_branch"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#15803D;strokeWidth=2;endArrow=none;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="1165" y="510" as="sourcePoint"/>
+
+            <mxPoint x="1764" y="510" as="targetPoint"/>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <!-- Engineer arrow -->
+
+        <mxCell id="engineer_arrow"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#15803D;strokeWidth=2;endArrow=block;endFill=1;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="1165" y="510" as="sourcePoint"/>
+
+            <mxPoint x="1165" y="560" as="targetPoint"/>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <!-- Team Lead arrow -->
+
+        <mxCell id="teamlead_arrow"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#15803D;strokeWidth=2;endArrow=block;endFill=1;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="1445" y="510" as="sourcePoint"/>
+
+            <mxPoint x="1445" y="560" as="targetPoint"/>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <!-- Manager arrow -->
+
+        <mxCell id="manager_arrow"
+
+          value=""
+
+          style="edgeStyle=none;noEdgeStyle=1;curved=0;rounded=0;html=1;strokeColor=#15803D;strokeWidth=2;endArrow=block;endFill=1;"
+
+          edge="1" parent="1">
+
+          <mxGeometry relative="1" as="geometry">
+
+            <mxPoint x="1725" y="510" as="sourcePoint"/>
+
+            <mxPoint x="1725" y="560" as="targetPoint"/>
+
+          </mxGeometry>
+
+        </mxCell>
+
+        <!-- EVIDENCE BOUNDARY -->
+
+        <mxCell id="evidence"
+
+          value="&lt;span style=&quot;color:#0F766E;font-size:21px;&quot;&gt;&lt;b&gt;EVIDENCE BOUNDARY&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Database results come from executed tools.&lt;br&gt;Root cause and customer impact remain unconfirmed."
+
+          style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=25;fontFamily=Helvetica;fontSize=21;fontColor=#0F172A;fillColor=#F0FDFA;strokeColor=#5EEAD4;strokeWidth=1.5;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="48" y="560" width="870" height="120" as="geometry"/>
+
+        </mxCell>
+
+        <!-- FOOTER -->
+
+        <mxCell id="footer"
+
+          value="Conceptual workflow. Actual tool calls, SQL queries, parameters and results are preserved in the investigation evidence."
+
+          style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=#64748B;"
+
+          vertex="1" parent="1">
+
+          <mxGeometry x="48" y="760" width="1824" height="35" as="geometry"/>
+
+        </mxCell>
+
+      </root>
+
+    </mxGraphModel>
+
+  </diagram>
+
+</mxfile>

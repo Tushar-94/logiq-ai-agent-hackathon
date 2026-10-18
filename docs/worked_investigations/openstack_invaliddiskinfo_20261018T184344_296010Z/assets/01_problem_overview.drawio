@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17" type="device" compressed="false">
+  <diagram id="01_problem_overview" name="A disk check fails. The evidence repeats.">
+    <mxGraphModel dx="1440" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1440" pageHeight="1040" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n1" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1440" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" value="LOGIQ  /  EVIDENCE-DRIVEN CLOUD INVESTIGATION" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#64748B;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="30" width="1344" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="A disk check fails. The evidence repeats." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=36;fontColor=#0F172A;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="48" y="70" width="1344" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="OpenStack · May 16–17, 2017 · timestamps as recorded · May 17 coverage is incomplete" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=20;fontColor=#475569;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="48" y="128" width="1344" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#93C5FD;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="48" y="210" width="650" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="OpenStack" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#1D4ED8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="224" width="606" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="Software that manages cloud computers" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=19;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="268" width="606" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#93C5FD;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="48" y="344" width="650" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="Background image-cache task" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#1D4ED8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="358" width="606" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="Scheduled checks of reusable disk images" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=19;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="402" width="606" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;jettySize=auto;fontFamily=Helvetica;fontSize=17;fontColor=#64748B;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="n5" target="n8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#93C5FD;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="48" y="478" width="650" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="qemu-img info" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#1D4ED8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="492" width="606" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="Reads information about a virtual-machine disk" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=19;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="536" width="606" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;jettySize=auto;fontFamily=Helvetica;fontSize=17;fontColor=#64748B;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="n8" target="n12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#FDBA74;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="48" y="612" width="650" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="Disk path unavailable" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#C2410C;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="626" width="606" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="Command output: “No such file or directory”" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=19;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="670" width="606" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;jettySize=auto;fontFamily=Helvetica;fontSize=17;fontColor=#64748B;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="n12" target="n16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#FDBA74;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="48" y="746" width="650" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" value="InvalidDiskInfo recorded" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#C2410C;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="760" width="606" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" value="An exception: usable disk information was not obtained" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=19;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="804" width="606" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="e23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;strokeColor=#64748B;strokeWidth=2;endArrow=block;endFill=1;jettySize=auto;fontFamily=Helvetica;fontSize=17;fontColor=#64748B;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="n16" target="n20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F0FDFA;strokeColor=#5EEAD4;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="755" y="210" width="637" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" value="8" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=52;fontColor=#0F766E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="783" y="228" width="110" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" value="InvalidDiskInfo exception lines" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=23;fontColor=#0F172A;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="228" width="460" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" value="Exception search matches" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=18;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="268" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" value="engineer/Q1" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#64748B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="321" width="450" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F0FDFA;strokeColor=#5EEAD4;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="755" y="383" width="637" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" value="24" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=52;fontColor=#0F766E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="783" y="401" width="110" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" value="qemu-img search matches" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=23;fontColor=#0F172A;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="401" width="460" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" value="Includes exception, command and error output" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=18;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="441" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" value="baseline/B2" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#64748B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="494" width="450" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n34" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#F0FDFA;strokeColor=#5EEAD4;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="755" y="556" width="637" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="n35" value="192" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=52;fontColor=#0F766E;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="783" y="574" width="110" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="n36" value="Component ERROR lines" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=23;fontColor=#0F172A;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="905" y="574" width="460" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n37" value="Includes the associated traceback lines" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=18;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="614" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n38" value="baseline/B3" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#64748B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="667" width="450" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="n39" value="" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF7ED;strokeColor=#FDBA74;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="755" y="755" width="637" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="n40" value="OVERLAPPING MEASUREMENTS" style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#C2410C;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="777" y="769" width="593" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="n41" value="Do not add these counts.&lt;br&gt;Log lines are not independent incidents." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=22;fontColor=#0F172A;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="777" y="813" width="593" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="n42" value="KNOWN: disk inspection could not open the path.     UNKNOWN: underlying cause, host count and customer impact." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=21;fontColor=#475569;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="48" y="914" width="1344" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n43" value="Evidence: engineer/Q1–Q2, baseline/B2–B3. A traceback records the code calls leading to an exception." style="text;html=1;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=middle;spacing=0;fontFamily=Helvetica;fontSize=16;fontColor=#64748B;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="48" y="985" width="1344" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
