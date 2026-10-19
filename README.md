@@ -20,6 +20,10 @@ LogIQ analyzes real-world system logs from the LogHub collection.
 |OpenStack|Cloud infrastructure logs containing service activity, errors, and tracebacks|207,820|
 |Total|Searchable records stored in SereneDB|4,955,783
 
+**Data Source:** [LogHub — Publicly Available System Log Datasets](https://github.com/logpai/loghub). 
+
+We used the BGL and OpenStack datasets for this project.
+
 > These are previously recorded logs, not live production telemetry.
 
 **Ask questions about system logs. Get verifiable answers tailored to the person taking action.**
